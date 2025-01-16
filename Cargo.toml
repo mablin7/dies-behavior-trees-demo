@@ -1,0 +1,9 @@
+[package]
+name = "soccer-strategy-sandbox"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ggez = "0.9"                                  # Simple 2D game engine
+glam = "0.24"                                 # Vector math
+uuid = { version = "1.4", features = ["v4"] }
